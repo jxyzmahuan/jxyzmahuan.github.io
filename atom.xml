@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>骉马的blog</title>
-  <icon>http://example.com/icon.png</icon>
+  <icon>https://jxyzmahuan.github.io/icon.png</icon>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://jxyzmahuan.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://jxyzmahuan.github.io/"/>
   <updated>2021-09-07T14:26:27.684Z</updated>
-  <id>http://example.com/</id>
+  <id>https://jxyzmahuan.github.io/</id>
   
   <author>
     <name>jxyzmahuan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/09/07/hello-world/"/>
-    <id>http://example.com/2021/09/07/hello-world/</id>
+    <link href="https://jxyzmahuan.github.io/2021/09/07/hello-world/"/>
+    <id>https://jxyzmahuan.github.io/2021/09/07/hello-world/</id>
     <published>2021-09-07T14:26:27.684Z</published>
     <updated>2021-09-07T14:26:27.684Z</updated>
     
