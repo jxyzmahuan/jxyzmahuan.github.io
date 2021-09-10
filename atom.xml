@@ -6,7 +6,7 @@
   <link href="https://jxyzmahuan.github.io/atom.xml" rel="self"/>
   
   <link href="https://jxyzmahuan.github.io/"/>
-  <updated>2021-09-07T14:26:27.684Z</updated>
+  <updated>2021-09-10T14:31:03.011Z</updated>
   <id>https://jxyzmahuan.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://jxyzmahuan.github.io/2021/09/07/hello-world/"/>
     <id>https://jxyzmahuan.github.io/2021/09/07/hello-world/</id>
     <published>2021-09-07T14:26:27.684Z</published>
-    <updated>2021-09-07T14:26:27.684Z</updated>
+    <updated>2021-09-10T14:31:03.011Z</updated>
     
     
       
@@ -34,6 +34,8 @@
     
     
     
+    
+    <category term="Hexo" scheme="https://jxyzmahuan.github.io/tags/Hexo/"/>
     
   </entry>
   
