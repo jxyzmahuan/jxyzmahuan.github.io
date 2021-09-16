@@ -6,7 +6,7 @@
   <link href="https://jxyzmahuan.github.io/atom.xml" rel="self"/>
   
   <link href="https://jxyzmahuan.github.io/"/>
-  <updated>2021-09-10T14:31:03.011Z</updated>
+  <updated>2021-09-16T13:18:57.549Z</updated>
   <id>https://jxyzmahuan.github.io/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SkyWalking安装配置</title>
+    <link href="https://jxyzmahuan.github.io/2021/09/16/SkyWalking%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <id>https://jxyzmahuan.github.io/2021/09/16/SkyWalking%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-09-16T13:14:13.000Z</published>
+    <updated>2021-09-16T13:18:57.549Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;elasticsearch7-安装配置&quot;&gt;&lt;a href=&quot;#elasticsearch7-安装配置&quot; class=&quot;headerlink&quot; title=&quot;elasticsearch7 安装配置&quot;&gt;&lt;/a&gt;elasticsearch7 安装配置&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SkyWalking" scheme="https://jxyzmahuan.github.io/tags/SkyWalking/"/>
+    
+    <category term="APM" scheme="https://jxyzmahuan.github.io/tags/APM/"/>
+    
+    <category term="Java" scheme="https://jxyzmahuan.github.io/tags/Java/"/>
+    
+    <category term="链路追踪" scheme="https://jxyzmahuan.github.io/tags/%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA/"/>
+    
+    <category term="微服务治理" scheme="https://jxyzmahuan.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="https://jxyzmahuan.github.io/2021/09/07/hello-world/"/>
     <id>https://jxyzmahuan.github.io/2021/09/07/hello-world/</id>
     <published>2021-09-07T14:26:27.684Z</published>
-    <updated>2021-09-10T14:31:03.011Z</updated>
+    <updated>2021-09-10T14:50:20.048Z</updated>
     
     
       
@@ -36,6 +67,8 @@
     
     
     <category term="Hexo" scheme="https://jxyzmahuan.github.io/tags/Hexo/"/>
+    
+    <category term="GitHub Pages" scheme="https://jxyzmahuan.github.io/tags/GitHub-Pages/"/>
     
   </entry>
   
