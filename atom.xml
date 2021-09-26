@@ -6,7 +6,7 @@
   <link href="https://jxyzmahuan.github.io/atom.xml" rel="self"/>
   
   <link href="https://jxyzmahuan.github.io/"/>
-  <updated>2021-09-23T12:20:19.535Z</updated>
+  <updated>2021-09-26T11:42:26.197Z</updated>
   <id>https://jxyzmahuan.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>青岛市历年出生人口数据</title>
+    <link href="https://jxyzmahuan.github.io/2021/09/26/%E9%9D%92%E5%B2%9B%E5%B8%82%E5%8E%86%E5%B9%B4%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%E6%95%B0%E6%8D%AE/"/>
+    <id>https://jxyzmahuan.github.io/2021/09/26/%E9%9D%92%E5%B2%9B%E5%B8%82%E5%8E%86%E5%B9%B4%E5%87%BA%E7%94%9F%E4%BA%BA%E5%8F%A3%E6%95%B0%E6%8D%AE/</id>
+    <published>2021-09-26T07:39:14.000Z</published>
+    <updated>2021-09-26T11:42:26.197Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;年份&lt;/th&gt;
+&lt;th&gt;总数&lt;/th&gt;
+&lt;th&gt;一胎&lt;/th&gt;
+&lt;th&gt;二胎&lt;/th&gt;
+&lt;th&gt;多胎&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;2008年&lt;/td&gt;
+&lt;td&gt;70464&lt;/td&gt;
+&lt;t</summary>
+        
+      
+    
+    
+    
+    
+    <category term="键政" scheme="https://jxyzmahuan.github.io/tags/%E9%94%AE%E6%94%BF/"/>
+    
+    <category term="人口" scheme="https://jxyzmahuan.github.io/tags/%E4%BA%BA%E5%8F%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo&amp;GithubPages搭建个人博客</title>
