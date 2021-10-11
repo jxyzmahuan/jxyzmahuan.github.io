@@ -20,15 +20,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"jxyzmahuan.github.io","root":"/","images":"/images","scheme":"Gemini","version":"8.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
-<meta name="description" content="Github配置创建repository配置 SSH key安装GitHexo安装配置下载nodejswindows系统下nodejs下载，安装nodejs 安装hexo1npm install -g hexo-cli  初始化hexo123hexo init blogcd blognpm install  启动hexo1hexo s  访问连接 http:&#x2F;&#x2F;localhost:4000">
+<meta name="description" content="Github配置下载安装git点击下载Git 设置GitHub的user name和email123##命令行执行git config --global user.name &quot;jxyzmahuan&quot; git config --global user.email &quot;690040143@qq.com&quot;  生成SSH密钥打开 Git Bash，输入如下命令，然后连">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo&amp;GithubPages搭建个人博客">
 <meta property="og:url" content="https://jxyzmahuan.github.io/2021/09/16/Hexo-GithubPages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="骉马的blog">
-<meta property="og:description" content="Github配置创建repository配置 SSH key安装GitHexo安装配置下载nodejswindows系统下nodejs下载，安装nodejs 安装hexo1npm install -g hexo-cli  初始化hexo123hexo init blogcd blognpm install  启动hexo1hexo s  访问连接 http:&#x2F;&#x2F;localhost:4000">
+<meta property="og:description" content="Github配置下载安装git点击下载Git 设置GitHub的user name和email123##命令行执行git config --global user.name &quot;jxyzmahuan&quot; git config --global user.email &quot;690040143@qq.com&quot;  生成SSH密钥打开 Git Bash，输入如下命令，然后连">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-09-16T13:24:59.000Z">
-<meta property="article:modified_time" content="2021-09-26T12:49:44.000Z">
+<meta property="article:modified_time" content="2021-10-11T13:52:57.010Z">
 <meta property="article:author" content="jxyzmahuan">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="GitHubPages">
@@ -88,8 +88,8 @@
 <nav class="site-nav">
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">9</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">5</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">13</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">7</span></a></li>
   </ul>
 </nav>
 
@@ -120,7 +120,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github%E9%85%8D%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">Github配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BArepository"><span class="nav-number">1.1.</span> <span class="nav-text">创建repository</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE-SSH-key"><span class="nav-number">1.2.</span> <span class="nav-text">配置 SSH key</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Git"><span class="nav-number">1.3.</span> <span class="nav-text">安装Git</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">Hexo安装配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDnodejs"><span class="nav-number">2.1.</span> <span class="nav-text">下载nodejs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85hexo"><span class="nav-number">2.2.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96hexo"><span class="nav-number">2.3.</span> <span class="nav-text">初始化hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8hexo"><span class="nav-number">2.4.</span> <span class="nav-text">启动hexo</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github%E9%85%8D%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">Github配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85git"><span class="nav-number">1.1.</span> <span class="nav-text">下载安装git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEGitHub%E7%9A%84user-name%E5%92%8Cemail"><span class="nav-number">1.2.</span> <span class="nav-text">设置GitHub的user name和email</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90SSH%E5%AF%86%E9%92%A5"><span class="nav-number">1.3.</span> <span class="nav-text">生成SSH密钥</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86SSH%E5%85%AC%E9%92%A5%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub%E8%B4%A6%E6%88%B7"><span class="nav-number">1.4.</span> <span class="nav-text">将SSH公钥添加到GitHub账户</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95%E8%BF%9E%E6%8E%A5"><span class="nav-number">1.5.</span> <span class="nav-text">测试连接</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">Hexo安装配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDnodejs"><span class="nav-number">2.1.</span> <span class="nav-text">下载nodejs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85hexo"><span class="nav-number">2.2.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96hexo"><span class="nav-number">2.3.</span> <span class="nav-text">初始化hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8hexo"><span class="nav-number">2.4.</span> <span class="nav-text">启动hexo</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -134,13 +134,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -222,7 +222,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-09-26 20:49:44" itemprop="dateModified" datetime="2021-09-26T20:49:44+08:00">2021-09-26</time>
+        <time title="修改时间：2021-10-11 21:52:57" itemprop="dateModified" datetime="2021-10-11T21:52:57+08:00">2021-10-11</time>
       </span>
 
   
@@ -232,7 +232,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>178</span>
+      <span>675</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -250,7 +250,25 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h1><h2 id="创建repository"><a href="#创建repository" class="headerlink" title="创建repository"></a>创建repository</h2><h2 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h2><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><h1 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h1><h2 id="下载nodejs"><a href="#下载nodejs" class="headerlink" title="下载nodejs"></a>下载nodejs</h2><p>windows系统下<a target="_blank" rel="noopener" href="https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi">nodejs下载</a>，安装nodejs</p>
+        <h1 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h1><h2 id="下载安装git"><a href="#下载安装git" class="headerlink" title="下载安装git"></a>下载安装git</h2><p><a target="_blank" rel="noopener" href="https://git-scm.com/download/win">点击下载Git</a></p>
+<h2 id="设置GitHub的user-name和email"><a href="#设置GitHub的user-name和email" class="headerlink" title="设置GitHub的user name和email"></a>设置GitHub的user name和email</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">##命令行执行</span><br><span class="line">git config --global user.name &quot;jxyzmahuan&quot; </span><br><span class="line">git config --global user.email &quot;690040143@qq.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="生成SSH密钥"><a href="#生成SSH密钥" class="headerlink" title="生成SSH密钥"></a>生成SSH密钥</h2><p>打开 Git Bash，输入如下命令，然后连续按三个回车即可</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#生成的key默认在C:\Users\用户名\.ssh下,id_rsa为私钥，id_rsa.pub为公钥</span><br><span class="line">ssh-keygen -t rsa -C &quot;690040143@qq.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="将SSH公钥添加到GitHub账户"><a href="#将SSH公钥添加到GitHub账户" class="headerlink" title="将SSH公钥添加到GitHub账户"></a>将SSH公钥添加到GitHub账户</h2><ol>
+<li><p>登录GitHub，</p>
+</li>
+<li><p>点击右上角settings—&gt;SSH and GPG keys</p>
+</li>
+<li><p>点击 New  SSH key，title任意起个名字，将id_rsa.pub复制到key文本框，点击Add SSH key</p>
+</li>
+</ol>
+<h2 id="测试连接"><a href="#测试连接" class="headerlink" title="测试连接"></a>测试连接</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#打开 Git Bash 输入：</span><br><span class="line">ssh -T git@github.com</span><br><span class="line"></span><br><span class="line">Hi jxyzmahuan! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h1><h2 id="下载nodejs"><a href="#下载nodejs" class="headerlink" title="下载nodejs"></a>下载nodejs</h2><p>windows系统下<a target="_blank" rel="noopener" href="https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi">nodejs下载</a>，安装nodejs</p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 <h2 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
@@ -331,13 +349,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">7k</span>
+    <span title="站点总字数">11k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">6 分钟</span>
+    <span title="站点阅读时长">10 分钟</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动

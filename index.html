@@ -83,8 +83,8 @@
 <nav class="site-nav">
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">9</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">5</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">13</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">7</span></a></li>
   </ul>
 </nav>
 
@@ -128,13 +128,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -175,6 +175,193 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://jxyzmahuan.github.io/2021/10/11/github%E9%85%8D%E7%BD%AEssh/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jxyzmahuan">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骉马的blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/10/11/github%E9%85%8D%E7%BD%AEssh/" class="post-title-link" itemprop="url">Github配置SSH</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-10-11 21:56:13 / 修改时间：21:57:10" itemprop="dateCreated datePublished" datetime="2021-10-11T21:56:13+08:00">2021-10-11</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>596</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="下载安装git"><a href="#下载安装git" class="headerlink" title="下载安装git"></a>下载安装git</h1><p><a target="_blank" rel="noopener" href="https://git-scm.com/download/win">点击下载Git</a></p>
+<h1 id="设置GitHub的user-name和email"><a href="#设置GitHub的user-name和email" class="headerlink" title="设置GitHub的user name和email"></a>设置GitHub的user name和email</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">##命令行执行</span><br><span class="line">git config --global user.name &quot;jxyzmahuan&quot; </span><br><span class="line">git config --global user.email &quot;690040143@qq.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h1 id="生成SSH密钥"><a href="#生成SSH密钥" class="headerlink" title="生成SSH密钥"></a>生成SSH密钥</h1><p>打开 Git Bash，输入如下命令，然后连续按三个回车即可</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#生成的key默认在C:\Users\用户名\.ssh下,id_rsa为私钥，id_rsa.pub为公钥</span><br><span class="line">ssh-keygen -t rsa -C &quot;690040143@qq.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h1 id="将SSH公钥添加到GitHub账户"><a href="#将SSH公钥添加到GitHub账户" class="headerlink" title="将SSH公钥添加到GitHub账户"></a>将SSH公钥添加到GitHub账户</h1><ol>
+<li><p>登录GitHub，</p>
+</li>
+<li><p>点击右上角settings—&gt;SSH and GPG keys</p>
+</li>
+<li><p>点击 New  SSH key，title任意起个名字，将id_rsa.pub复制到key文本框，点击Add SSH key</p>
+</li>
+</ol>
+<h1 id="测试连接"><a href="#测试连接" class="headerlink" title="测试连接"></a>测试连接</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#打开 Git Bash 输入：</span><br><span class="line">ssh -T git@github.com</span><br><span class="line"></span><br><span class="line">Hi jxyzmahuan! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+
+<h1 id="设置项目使用SSH"><a href="#设置项目使用SSH" class="headerlink" title="设置项目使用SSH"></a>设置项目使用SSH</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url origin git@github.com:jxyzmahuan/blogMarkdown.git</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://jxyzmahuan.github.io/2021/10/11/Singleton%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jxyzmahuan">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骉马的blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/10/11/Singleton%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" class="post-title-link" itemprop="url">Singleton单例模式</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-10-11 21:14:13 / 修改时间：21:52:57" itemprop="dateCreated datePublished" datetime="2021-10-11T21:14:13+08:00">2021-10-11</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3.2k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="1-饿汉式"><a href="#1-饿汉式" class="headerlink" title="1.饿汉式"></a>1.饿汉式</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * 饿汉式</span><br><span class="line"> * 类加载到内存后，就实例化一个单例，JVM保证线程安全</span><br><span class="line"> * 简单实用，推荐使用！</span><br><span class="line"> * 唯一缺点：不管用到与否，类装载时就完成实例化</span><br><span class="line"> */</span><br><span class="line">public class Mgr01 &#123;</span><br><span class="line">    private static final Mgr01 INSTANCE = new Mgr01();</span><br><span class="line"></span><br><span class="line">    private Mgr01() &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    public static Mgr01 getInstance() &#123;</span><br><span class="line">        return INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void m() &#123;</span><br><span class="line">        System.out.println(&quot;m&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-懒汉式"><a href="#2-懒汉式" class="headerlink" title="2.懒汉式"></a>2.懒汉式</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">**</span><br><span class="line"> * lazy loading</span><br><span class="line"> * 也称懒汉式</span><br><span class="line"> * 虽然达到了按需初始化的目的，但却带来线程不安全的问题</span><br><span class="line"> */</span><br><span class="line">public class Mgr03 &#123;</span><br><span class="line">    private static Mgr03 INSTANCE;</span><br><span class="line"></span><br><span class="line">    private Mgr03() &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static Mgr03 getInstance() &#123;</span><br><span class="line">        if (INSTANCE == null) &#123;</span><br><span class="line">            try &#123;</span><br><span class="line">                Thread.sleep(1);</span><br><span class="line">            &#125; catch (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">            INSTANCE = new Mgr03();</span><br><span class="line">        &#125;</span><br><span class="line">        return INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void m() &#123;</span><br><span class="line">        System.out.println(&quot;m&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        for(int i=0; i&lt;100; i++) &#123;</span><br><span class="line">            new Thread(()-&gt;</span><br><span class="line">                System.out.println(Mgr03.getInstance().hashCode())</span><br><span class="line">            ).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-懒汉式加锁"><a href="#3-懒汉式加锁" class="headerlink" title="3.懒汉式加锁"></a>3.懒汉式加锁</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * lazy loading</span><br><span class="line"> * 也称懒汉式</span><br><span class="line"> * 虽然达到了按需初始化的目的，但却带来线程不安全的问题</span><br><span class="line"> * 可以通过synchronized解决，但也带来效率下降</span><br><span class="line"> */</span><br><span class="line">public class Mgr04 &#123;</span><br><span class="line">    private static Mgr04 INSTANCE;</span><br><span class="line"></span><br><span class="line">    private Mgr04() &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static synchronized Mgr04 getInstance() &#123;</span><br><span class="line">        if (INSTANCE == null) &#123;</span><br><span class="line">            try &#123;</span><br><span class="line">                Thread.sleep(1);</span><br><span class="line">            &#125; catch (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">            INSTANCE = new Mgr04();</span><br><span class="line">        &#125;</span><br><span class="line">        return INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void m() &#123;</span><br><span class="line">        System.out.println(&quot;m&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        for(int i=0; i&lt;100; i++) &#123;</span><br><span class="line">            new Thread(()-&gt;&#123;</span><br><span class="line">                System.out.println(Mgr04.getInstance().hashCode());</span><br><span class="line">            &#125;).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-双重检查锁DCL"><a href="#4-双重检查锁DCL" class="headerlink" title="4.双重检查锁DCL"></a>4.双重检查锁DCL</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * lazy loading</span><br><span class="line"> * 也称懒汉式</span><br><span class="line"> * 虽然达到了按需初始化的目的，但却带来线程不安全的问题</span><br><span class="line"> * 可以通过synchronized解决，但也带来效率下降</span><br><span class="line"> */</span><br><span class="line">public class Mgr06 &#123;</span><br><span class="line">    private static volatile Mgr06 INSTANCE; //JIT</span><br><span class="line"></span><br><span class="line">    private Mgr06() &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static Mgr06 getInstance() &#123;</span><br><span class="line">        if (INSTANCE == null) &#123;</span><br><span class="line">            //双重检查</span><br><span class="line">            synchronized (Mgr06.class) &#123;</span><br><span class="line">                if(INSTANCE == null) &#123;</span><br><span class="line">                    try &#123;</span><br><span class="line">                        Thread.sleep(1);</span><br><span class="line">                    &#125; catch (InterruptedException e) &#123;</span><br><span class="line">                        e.printStackTrace();</span><br><span class="line">                    &#125;</span><br><span class="line">                    INSTANCE = new Mgr06();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void m() &#123;</span><br><span class="line">        System.out.println(&quot;m&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        for(int i=0; i&lt;100; i++) &#123;</span><br><span class="line">            new Thread(()-&gt;&#123;</span><br><span class="line">                System.out.println(Mgr06.getInstance().hashCode());</span><br><span class="line">            &#125;).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="5-静态内部类"><a href="#5-静态内部类" class="headerlink" title="5.静态内部类"></a>5.静态内部类</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * 静态内部类方式</span><br><span class="line"> * JVM保证单例</span><br><span class="line"> * 加载外部类时不会加载内部类，这样可以实现懒加载</span><br><span class="line"> */</span><br><span class="line">public class Mgr07 &#123;</span><br><span class="line"></span><br><span class="line">    private Mgr07() &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    private static class Mgr07Holder &#123;</span><br><span class="line">        private final static Mgr07 INSTANCE = new Mgr07();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static Mgr07 getInstance() &#123;</span><br><span class="line">        return Mgr07Holder.INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void m() &#123;</span><br><span class="line">        System.out.println(&quot;m&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        for(int i=0; i&lt;100; i++) &#123;</span><br><span class="line">            new Thread(()-&gt;&#123;</span><br><span class="line">                System.out.println(Mgr07.getInstance().hashCode());</span><br><span class="line">            &#125;).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="6-枚举类"><a href="#6-枚举类" class="headerlink" title="6.枚举类"></a>6.枚举类</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * 不仅可以解决线程同步，还可以防止反序列化。</span><br><span class="line"> */</span><br><span class="line">public enum Mgr08 &#123;</span><br><span class="line"></span><br><span class="line">    INSTANCE;</span><br><span class="line"></span><br><span class="line">    public void m() &#123;&#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        for(int i=0; i&lt;100; i++) &#123;</span><br><span class="line">            new Thread(()-&gt;&#123;</span><br><span class="line">                System.out.println(Mgr08.INSTANCE.hashCode());</span><br><span class="line">            &#125;).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -309,7 +496,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-10-08 14:31:04" itemprop="dateModified" datetime="2021-10-08T14:31:04+08:00">2021-10-08</time>
+        <time title="修改时间：2021-10-11 21:52:57" itemprop="dateModified" datetime="2021-10-11T21:52:57+08:00">2021-10-11</time>
       </span>
 
   
@@ -543,7 +730,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-09-26 20:49:44" itemprop="dateModified" datetime="2021-09-26T20:49:44+08:00">2021-09-26</time>
+        <time title="修改时间：2021-10-11 21:52:57" itemprop="dateModified" datetime="2021-10-11T21:52:57+08:00">2021-10-11</time>
       </span>
 
   
@@ -553,7 +740,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>178</span>
+      <span>675</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -571,7 +758,25 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h1><h2 id="创建repository"><a href="#创建repository" class="headerlink" title="创建repository"></a>创建repository</h2><h2 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h2><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><h1 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h1><h2 id="下载nodejs"><a href="#下载nodejs" class="headerlink" title="下载nodejs"></a>下载nodejs</h2><p>windows系统下<a target="_blank" rel="noopener" href="https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi">nodejs下载</a>，安装nodejs</p>
+          <h1 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h1><h2 id="下载安装git"><a href="#下载安装git" class="headerlink" title="下载安装git"></a>下载安装git</h2><p><a target="_blank" rel="noopener" href="https://git-scm.com/download/win">点击下载Git</a></p>
+<h2 id="设置GitHub的user-name和email"><a href="#设置GitHub的user-name和email" class="headerlink" title="设置GitHub的user name和email"></a>设置GitHub的user name和email</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">##命令行执行</span><br><span class="line">git config --global user.name &quot;jxyzmahuan&quot; </span><br><span class="line">git config --global user.email &quot;690040143@qq.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="生成SSH密钥"><a href="#生成SSH密钥" class="headerlink" title="生成SSH密钥"></a>生成SSH密钥</h2><p>打开 Git Bash，输入如下命令，然后连续按三个回车即可</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#生成的key默认在C:\Users\用户名\.ssh下,id_rsa为私钥，id_rsa.pub为公钥</span><br><span class="line">ssh-keygen -t rsa -C &quot;690040143@qq.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="将SSH公钥添加到GitHub账户"><a href="#将SSH公钥添加到GitHub账户" class="headerlink" title="将SSH公钥添加到GitHub账户"></a>将SSH公钥添加到GitHub账户</h2><ol>
+<li><p>登录GitHub，</p>
+</li>
+<li><p>点击右上角settings—&gt;SSH and GPG keys</p>
+</li>
+<li><p>点击 New  SSH key，title任意起个名字，将id_rsa.pub复制到key文本框，点击Add SSH key</p>
+</li>
+</ol>
+<h2 id="测试连接"><a href="#测试连接" class="headerlink" title="测试连接"></a>测试连接</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#打开 Git Bash 输入：</span><br><span class="line">ssh -T git@github.com</span><br><span class="line"></span><br><span class="line">Hi jxyzmahuan! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h1><h2 id="下载nodejs"><a href="#下载nodejs" class="headerlink" title="下载nodejs"></a>下载nodejs</h2><p>windows系统下<a target="_blank" rel="noopener" href="https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi">nodejs下载</a>，安装nodejs</p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 <h2 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
@@ -628,10 +833,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2021-09-16 21:14:13 / 修改时间：21:39:49" itemprop="dateCreated datePublished" datetime="2021-09-16T21:14:13+08:00">2021-09-16</time>
+      <time title="创建时间：2021-09-16 21:14:13" itemprop="dateCreated datePublished" datetime="2021-09-16T21:14:13+08:00">2021-09-16</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-10-11 21:52:57" itemprop="dateModified" datetime="2021-10-11T21:52:57+08:00">2021-10-11</time>
+      </span>
 
   
     <span class="post-meta-break"></span>
@@ -818,13 +1029,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">7k</span>
+    <span title="站点总字数">11k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">6 分钟</span>
+    <span title="站点阅读时长">10 分钟</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
